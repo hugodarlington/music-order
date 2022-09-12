@@ -1,0 +1,85 @@
+*, 
+*::after, 
+*::before{
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-decoration: none;
+    /* background-image: url(../img/2pac\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
+
+
+#full-card{
+    /* width: 578px; */
+    max-width: 700%;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(212, 212, 212, 0.966);
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 35%;
+    margin-bottom: 3rem;
+    
+}
+
+.pac-photo img{
+    width: 300px;
+    height:300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    
+}
+
+.boom-notes{
+    margin-top: 2rem;
+    /* margin-bottom:5rem;     */
+}
+
+.payment-card{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: .2rem;
+    margin-left: 10px;
+    border-radius: 12px;
+    margin-top: 6px;
+    width: 280px;
+    background-color: rgb(231, 221, 236);
+}
+
+.payment-buttons p {
+    margin-top: .5rem;
+    
+}
+.payment-buttons{
+    margin-bottom: 2rem;
+}
+.payment-buttons p a{
+    padding-top: 3rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.proceed{
+    text-decoration: none;
+    padding: .2rem;
+    width: 280px;
+    border-radius: 3px;
+    background-color: rgba(138, 58, 175, 0.856);
+    color: white;
+    margin-left: 10px;
+}
+
+.cancel{
+    padding-bottom: 2rem;
+}
